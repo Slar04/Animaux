@@ -12,7 +12,7 @@ package animaux;
 abstract class Animal {
 
   protected String couleur;
-  protected int poids;
+  protected int poids, c, k;
 
   protected void manger(){
     System.out.println("Je mange de la viande.");
